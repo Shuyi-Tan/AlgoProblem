@@ -7,6 +7,7 @@ def min_of_rev_array(arr):
             a = mid
         elif arr[mid] <= arr[b]:
             b = mid
+
     return arr[a]
 
 
